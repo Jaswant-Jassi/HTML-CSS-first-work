@@ -1,0 +1,425 @@
+
+
+body {
+  background-color: rgb(239, 255, 255);
+}
+/* navbar code start */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    align-items: center;
+    background-color: rgb(8, 217, 214);
+    padding: 0;
+    margin: 0;
+}
+
+
+.lsnavbar {
+    background-color: rgb(255, 46, 99);
+    padding: 0rem 2.5rem
+}
+
+.lsnavbar>p {
+    font-size: 2rem;
+    color: rgb(37, 42, 52);
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.mnavbar {
+    display: flex;
+}
+
+.mnavbar>div {
+    margin: 0.5rem;
+}
+
+
+.mnavbar>div>a {
+    text-decoration: none;
+    color: rgb(234, 234, 234);
+    font-size: 2.5rem;
+    padding: 0.3rem 1rem;
+  }
+
+  .mnavbar>div>a:hover {
+    background-color: rgb(37, 42, 52);
+    border-radius: 30px;
+  }
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:  rgb(234, 234, 234);
+    width: 15rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 2px;
+    
+  }
+
+  .dropdown-content>div {
+    margin: 0;
+    padding: 1rem 2rem;
+    /* text-align: center; */
+  }
+  
+  .dropdown-content>div>a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: rgb(37, 42, 52);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown>span {
+    color:  rgb(234, 234, 234);
+    font-size: 2.5rem;
+    padding: 0.3rem 1rem;
+    margin: 0;
+  }
+
+  .dropdown>span:hover {
+    background-color: rgb(37, 42, 52);
+    border-radius: 30px;
+  }
+  
+  .dropdown-content>div:hover {
+    background-color: rgb(221, 221, 156);
+  }
+
+
+.rsnavbar {
+    display: flex;
+    /* padding: 0 .5rem; */
+
+}
+
+.rsnavbar>div {
+    margin: .rem;
+    text-align: center;
+
+}
+
+.rsnavbar>div>input {
+    width: 18rem;
+    height: 2rem;
+    text-align: center;
+    font-size: 1.1rem;
+    background-color:  rgb(234, 234, 234);
+    border-radius: 100px;
+    border: 0;
+    margin-right: 0.5rem;
+    color: rgb(37, 42, 52);
+}
+
+.rsnavbar>div>a {
+  margin-right: 0.5rem;
+}
+
+
+/* navbar code end */
+
+/* new books code start */
+
+.nbooks {
+  margin: 1rem;
+}
+
+  .nbooks>div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .nb-title>p {
+  background-color: rgb(255, 46, 99);
+  padding: 0.5rem 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(37, 42, 52);
+  margin: 0;
+}
+
+  .nbooks-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .pair1 {
+    margin: 1rem;
+    
+  }
+
+  .pair1>div {
+    padding-bottom: 1rem;
+  }
+
+  .book1>a>img {
+    border-radius: 2% 60% 0% 100% / 10% 10% 0% 0%;
+  }
+
+  .book1>a>p {
+    border-radius: 100% 0% 60% 2% / 0% 0% 35% 90%;
+  }
+
+ 
+
+  .book2>a>img {
+    border-radius: 60% 2% 0% 0% / 10% 10% 0% 0%;
+  }
+
+  .book2>a>p {
+    border-radius: 0% 100% 2% 60% / 0% 0% 90% 35%;
+  }
+
+  .nbooks-content>div {
+    display: inline-block;
+    
+  }
+
+  .nbooks-content>div>div {
+    display: inline-block;
+  }
+
+  .nbooks-content>div>div>a {
+    text-decoration: none;
+    text-align: center; 
+  }
+
+  .nbooks-content>div>div>a>p {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(8, 217, 214);
+    margin: 0;
+    padding: 0.3rem;
+  }
+
+.nb-morebooks>a {
+    background-color: rgb(221, 221, 156);
+    padding: 0.6rem 0.1rem;
+    color: rgb(37, 42, 52);
+    margin-bottom: 1rem;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+ .nb-morebooks {
+
+  display: flex;
+  justify-content: space-around;
+ }
+
+/* new books code end */
+
+/* popular books code start */
+
+.pbooks {
+  margin: 1rem;
+}
+
+  .pbooks>div {
+    padding: 0;
+    margin: 0;
+  }
+
+  .pb-title>p {
+  background-color: rgb(255, 46, 99);
+  padding: 0.5rem 1.5rem;
+  font-size: 2rem;
+  text-align: center;
+  color: rgb(37, 42, 52);
+  margin: 0;
+}
+
+  .pbooks-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+  }
+
+  .pair2 {
+    margin: 1rem;
+    
+  }
+
+  .pair2>div {
+    padding-bottom: 1rem;
+  }
+
+  .book3>a>img {
+    border-radius: 2% 60% 0% 100% / 10% 10% 0% 0%;
+  }
+
+  .book3>a>p {
+    border-radius: 100% 0% 60% 2% / 0% 0% 35% 90%;
+  }
+
+ 
+
+  .book4>a>img {
+    border-radius: 60% 2% 0% 0% / 10% 10% 0% 0%;
+  }
+
+  .book4>a>p {
+    border-radius: 0% 100% 2% 60% / 0% 0% 90% 35%;
+  }
+
+  .pbooks-content>div {
+    display: inline-block;
+    
+  }
+
+  .pbooks-content>div>div {
+    display: inline-block;
+  }
+
+  .pbooks-content>div>div>a {
+    text-decoration: none;
+    text-align: center; 
+  }
+
+  .pbooks-content>div>div>a>p {
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(8, 217, 214);
+    margin: 0;
+    padding: 0.3rem;
+  }
+
+.pb-morebooks>a {
+    background-color: rgb(221, 221, 156);
+    padding: 0.6rem 0.1rem;
+    color: rgb(37, 42, 52);
+    margin-bottom: 1rem;
+    width: 10rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 20px;
+  }
+ .pb-morebooks {
+  display: flex;
+  justify-content: space-around;
+  
+ }
+
+ /* popular books code end */
+
+
+/* book your book code start */
+
+.byb {
+  background-color: rgb(37, 42, 52);
+  display: flex;
+  /* background-color: rgb(234, 234, 234); */
+  justify-content:space-around;
+  
+  
+}
+
+.byb-ls {
+  display: block;
+  text-align: center;
+  padding: 5rem;
+ 
+}
+
+.byb-ls>div>p {
+  font-size: 3rem;
+  color: rgb(234, 234, 234);
+  margin: 5rem;
+  padding: 4rem;
+  background-color: rgb(255, 46, 99);
+  border-radius: 100% 10% 100% 10% / 100% 100% 100% 100% ;
+}
+
+.byb-ls>div>a {
+  text-decoration: none;
+  color: rgb(234, 234, 234);
+  margin: 0.5rem;
+  padding: 1rem;
+}
+
+.byb-ls>div>a:hover {
+  color: rgb(37, 42, 52);
+  background-color: rgb(221, 221, 156);
+  border-radius: 100px;
+}
+
+.byb-rs {
+  margin: 1.5rem;
+}
+
+
+fieldset {
+  /* text-align: center; */
+  border: 01px solid rgb(8, 217, 214);
+  border-radius: 10px;
+  padding: 2rem;
+  text-align: right;
+  margin: 0.5rem;
+  
+}
+
+  fieldset>input {
+    border-radius: 10px;
+    border: 0;
+    width: 19rem;
+    height: 1.3rem;
+    background-color: rgb(234, 234, 234);
+    
+  }
+
+  legend {
+  background-color: rgb(8, 217, 214);
+  border: 1px solid rgb(8, 217, 214);
+  border-radius: 10px;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  text-align: right;
+
+  }
+
+  label {
+    font-size: 1.3rem;
+    text-align: right;
+    color: rgb(234, 234, 234);
+
+  }
+
+  .submitbtn {
+    text-decoration: none;
+  }
+  .submitbtn>p {
+    text-align: center;
+    color: rgb(37, 42, 52);
+    padding:  0.1rem;
+    font-size: 1.3rem;
+    background-color: rgb(221, 221, 156);
+    border-radius: 100px;
+  }
+
+/* book your book code start */
+
+/* footer code start */
+
+footer {
+  background-color: rgb(8, 217, 214);
+  margin: 1rem 0;
+  padding: 0.1rem;
+  text-align: center;
+}
+
+/* footer code end */
